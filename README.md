@@ -13,7 +13,7 @@ This tool generates usage reports for CircleCI organizations on a shared plan. I
 ## Requirements
 
 - Python 3.6+
-- CircleCI account with admin access to your organization
+- CircleCI account with access to your organization
 - CircleCI API token
 
 ## Installation
