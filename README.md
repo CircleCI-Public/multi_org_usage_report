@@ -20,7 +20,7 @@ This tool generates usage reports for CircleCI organizations on a shared plan. I
 
 1. Clone this repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/CircleCI-Support/multi_org_usage_report.git
    cd circleci-usage-report-generator
    ```
 
