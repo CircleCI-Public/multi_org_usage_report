@@ -87,7 +87,7 @@ all_orgs_TIMESTAMP_START-DATE_END-DATE.csv
 
 ## Troubleshooting
 
-- **API Rate Limiting**: The script includes progressive backoff to handle rate limiting. However, CircleCI does rate limit the number of request you may make per day
+- **API Rate Limiting**: The script includes progressive backoff to handle rate limiting. However, CircleCI does rate limit the number of request you may make per hour
 - **Job Processing Time**: For large organizations, the job may take several minutes to complete
 - **Authentication Errors**: Check that your CircleCI token has the correct access for your organization
 
