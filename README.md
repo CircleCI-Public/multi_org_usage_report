@@ -21,7 +21,7 @@ This tool generates usage reports for CircleCI organizations on a shared plan. I
 1. Clone this repository:
    ```
    git clone https://github.com/CircleCI-Support/multi_org_usage_report.git
-   cd circleci-usage-report-generator
+   cd multi_org_usage_report
    ```
 
 2. Install the required dependencies:
@@ -29,7 +29,7 @@ This tool generates usage reports for CircleCI organizations on a shared plan. I
    pip install -r requirements.txt
    ```
 
-3. Create a `.env` file in the root directory with the following variables:
+3. update the `.env` file in the root directory with the following variables:
    ```
    CIRCLE_TOKEN=your-circle-ci-token
    PRIMARY_ORG_ID=your-primary-org-id
@@ -42,7 +42,7 @@ This tool generates usage reports for CircleCI organizations on a shared plan. I
 Run the script with:
 
 ```
-python usage_report.py
+python generate_report.py
 ```
 
 The script will:
